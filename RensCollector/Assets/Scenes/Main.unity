@@ -1787,7 +1787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808179596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.5, y: -0.81, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1360890676}
@@ -3445,6 +3445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1360890676}
   - component: {fileID: 1360890677}
+  - component: {fileID: 1360890680}
   - component: {fileID: 1360890679}
   - component: {fileID: 1360890678}
   m_Layer: 0
@@ -3462,7 +3463,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360890675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.58, y: 0.44, z: 0}
+  m_LocalPosition: {x: -10.83, y: -0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 301923616}
@@ -3536,8 +3537,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 6
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3569,6 +3570,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.29, y: 1.4480581}
   m_EdgeRadius: 0
+--- !u!114 &1360890680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360890675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0d7970c2c5cc214fbe491e58163fe39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpVelocity: 26
 --- !u!1 &1420585581
 GameObject:
   m_ObjectHideFlags: 0
