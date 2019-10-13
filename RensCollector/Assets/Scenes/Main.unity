@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 293043312}
   - component: {fileID: 293043313}
   - component: {fileID: 293043314}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassMid (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 347839072}
   - component: {fileID: 347839073}
   - component: {fileID: 347839074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassMid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 356658271}
   - component: {fileID: 356658270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 504753944}
   - component: {fileID: 504753945}
   - component: {fileID: 504753946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582604842}
   - component: {fileID: 582604841}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Dirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1545,7 +1545,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 618935732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1668,7 +1668,7 @@ GameObject:
   - component: {fileID: 739126991}
   - component: {fileID: 739126992}
   - component: {fileID: 739126993}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2237,7 +2237,7 @@ GameObject:
   - component: {fileID: 1013055207}
   - component: {fileID: 1013055208}
   - component: {fileID: 1013055209}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassMid (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +2818,7 @@ GameObject:
   - component: {fileID: 1211893732}
   - component: {fileID: 1211893733}
   - component: {fileID: 1211893734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassMid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3002,7 +3002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1258169484}
   - component: {fileID: 1258169485}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DirtRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3161,7 +3161,7 @@ GameObject:
   - component: {fileID: 1307179838}
   - component: {fileID: 1307179839}
   - component: {fileID: 1307179840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3582,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0d7970c2c5cc214fbe491e58163fe39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpVelocity: 26
+  platformsLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  jumpSpeed: 26
+  moveSpeed: 10
 --- !u!1 &1420585581
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,7 +4151,7 @@ GameObject:
   - component: {fileID: 2044736677}
   - component: {fileID: 2044736678}
   - component: {fileID: 2044736679}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4285,7 +4289,7 @@ GameObject:
   - component: {fileID: 2073645241}
   - component: {fileID: 2073645242}
   - component: {fileID: 2073645243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GrassMid (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
